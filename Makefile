@@ -1,4 +1,4 @@
-all: kernel modules
+all: kernel
 
 kernel:
 	$(MAKE) -C kernel

@@ -4,4 +4,5 @@
 
 void init(struct multiboot_info *mb_info) {
 	console_init();
+	kprintf("Hello World!\n");
 }

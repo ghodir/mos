@@ -16,6 +16,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\kernel\console.h" />
+    <ClInclude Include="..\kernel\include\stdarg.h" />
+    <ClInclude Include="..\kernel\include\stddef.h" />
+    <ClInclude Include="..\kernel\include\stdint.h" />
     <ClInclude Include="..\kernel\multiboot.h" />
   </ItemGroup>
   <ItemGroup>

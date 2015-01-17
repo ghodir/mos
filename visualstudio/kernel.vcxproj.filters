@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{c5fcc145-4942-4e2d-bbf1-77427bbd48ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\kernel\console.c">
@@ -28,6 +31,15 @@
     </ClInclude>
     <ClInclude Include="..\kernel\multiboot.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\stdarg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\stddef.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\include\stdint.h">
+      <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
