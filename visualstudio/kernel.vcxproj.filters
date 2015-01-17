@@ -24,6 +24,9 @@
     <ClCompile Include="..\kernel\init.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\kernel\gdt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\kernel\console.h">
@@ -40,6 +43,9 @@
     </ClInclude>
     <ClInclude Include="..\kernel\include\stdint.h">
       <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kernel\gdt.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

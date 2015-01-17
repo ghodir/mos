@@ -12,10 +12,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\kernel\console.c" />
+    <ClCompile Include="..\kernel\gdt.c" />
     <ClCompile Include="..\kernel\init.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\kernel\console.h" />
+    <ClInclude Include="..\kernel\gdt.h" />
     <ClInclude Include="..\kernel\include\stdarg.h" />
     <ClInclude Include="..\kernel\include\stddef.h" />
     <ClInclude Include="..\kernel\include\stdint.h" />
